@@ -1,0 +1,9 @@
+Satisfy Any
+Order Allow,Deny
+Allow from all
+Options -Indexes
+
+RedirectMatch 404 /\.git
+RedirectMatch 404 /\.idea
+RedirectMatch 404 README.md
+RedirectMatch 404 .htaccess
